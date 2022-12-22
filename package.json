@@ -1,0 +1,15 @@
+{
+  "name": "productmanager",
+  "version": "1.0.0",
+  "description": "App de consultas de productos - TP coderHouse - BackEnd",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "Nelson Gauto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
