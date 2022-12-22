@@ -3,7 +3,7 @@ const express = require('express');
 const PORT = 8080;
 
 const ProductManager = require('./ProductManager');
-const productos = new ProductManager('data.json');
+const productos = new ProductManager('./src/data.json');
 
 //Inicializacion
 const app = express(); 
